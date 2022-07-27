@@ -6,6 +6,6 @@
 //
 
 import Foundation
-struct ApolloJsonQueryModel: Codable {
+struct ApolloQueryModel: Codable {
     let collection: CollectionQueryModel
 }

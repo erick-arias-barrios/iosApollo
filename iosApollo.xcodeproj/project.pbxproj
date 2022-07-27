@@ -11,7 +11,7 @@
 		95D07ACB2891CA1D00156558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D07ACA2891CA1D00156558 /* ContentView.swift */; };
 		95D07ACD2891CA1E00156558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D07ACC2891CA1E00156558 /* Assets.xcassets */; };
 		95D07AD02891CA1E00156558 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D07ACF2891CA1E00156558 /* Preview Assets.xcassets */; };
-		95D07ADA2891CF3000156558 /* ApolloJSONQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D07AD92891CF3000156558 /* ApolloJSONQueryModel.swift */; };
+		95D07ADA2891CF3000156558 /* ApolloQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D07AD92891CF3000156558 /* ApolloQueryModel.swift */; };
 		95D07ADC2891E1EE00156558 /* CollectionQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D07ADB2891E1EE00156558 /* CollectionQueryModel.swift */; };
 		95D07ADE2891E26F00156558 /* ItemQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D07ADD2891E26F00156558 /* ItemQueryModel.swift */; };
 		95D07AE02891E2D400156558 /* DataQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D07ADF2891E2D400156558 /* DataQueryModel.swift */; };
@@ -24,7 +24,7 @@
 		95D07ACA2891CA1D00156558 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95D07ACC2891CA1E00156558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95D07ACF2891CA1E00156558 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		95D07AD92891CF3000156558 /* ApolloJSONQueryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloJSONQueryModel.swift; sourceTree = "<group>"; };
+		95D07AD92891CF3000156558 /* ApolloQueryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloQueryModel.swift; sourceTree = "<group>"; };
 		95D07ADB2891E1EE00156558 /* CollectionQueryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionQueryModel.swift; sourceTree = "<group>"; };
 		95D07ADD2891E26F00156558 /* ItemQueryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemQueryModel.swift; sourceTree = "<group>"; };
 		95D07ADF2891E2D400156558 /* DataQueryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataQueryModel.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		95D07AD62891CD1F00156558 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				95D07AD92891CF3000156558 /* ApolloJSONQueryModel.swift */,
+				95D07AD92891CF3000156558 /* ApolloQueryModel.swift */,
 				95D07ADB2891E1EE00156558 /* CollectionQueryModel.swift */,
 				95D07ADD2891E26F00156558 /* ItemQueryModel.swift */,
 				95D07ADF2891E2D400156558 /* DataQueryModel.swift */,
@@ -181,7 +181,7 @@
 				95D07AE02891E2D400156558 /* DataQueryModel.swift in Sources */,
 				95D07ACB2891CA1D00156558 /* ContentView.swift in Sources */,
 				95D07AE22891E72500156558 /* LinkQueryModel.swift in Sources */,
-				95D07ADA2891CF3000156558 /* ApolloJSONQueryModel.swift in Sources */,
+				95D07ADA2891CF3000156558 /* ApolloQueryModel.swift in Sources */,
 				95D07AC92891CA1D00156558 /* iosApolloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
