@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ApolloListView: View {
+    let apolloQueryModel: [ApolloQueryModel]
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -15,6 +16,7 @@ struct ApolloListView: View {
 
 struct ApolloListView_Previews: PreviewProvider {
     static var previews: some View {
-        ApolloListView()
+        ApolloListView( apolloQueryModel: [ApolloQueryModel]() )
     }
 }
+ 

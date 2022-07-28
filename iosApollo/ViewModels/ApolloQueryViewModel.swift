@@ -11,7 +11,9 @@ class ApolloQueryViewModel: ObservableObject {
     @Published var isLoading: Bool = false
     @Published var errorMessage: String? = nil
     
-    init() {}
+    init() {
+        fetchAllApollo()
+    }
     
     func fetchAllApollo() {
         let url = URL(string: "https://images-api.nasa.gov/search?q=apollo%2011")!

@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var apolloQVM = ApolloQueryViewModel()
     var body: some View {
-        Text("! ! ! Mundo maravilloso ! ! !")
-            .padding()
+        
+        if apolloQVM.isLoading {
+            LoadingView()
+        } else if apolloQVM.errorMessage != nil {
+            ErrorView(apolloQVM: apolloQVM)
+        } else {
+            ApolloListView(apolloQueryModel: apolloQVM.apolloQueryModel)
+        }
+            //.padding()
     }
 }
 
